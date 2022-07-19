@@ -9,7 +9,7 @@ import{AiFillGithub} from 'react-icons/ai'
 export default function ProjectCard(props) {
   return (
     <div className="shadow-xl rounded-xl">
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 500 }}>
       <CardMedia
         component="img"
         height="140"

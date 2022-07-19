@@ -155,6 +155,11 @@ const backEnd = [
     score: 80,
   },
   {
+    name: "SQL",
+    level: "Basic",
+    score: 65,
+  },
+  {
     name: "Flask",
     level: "Intermediate",
     score: 75,
@@ -170,11 +175,6 @@ const backEnd = [
     score: 70,
   },
   {
-    name: "SQL",
-    level: "Intermediate",
-    score: 70,
-  },
-  {
     name: "GrpahQL",
     level: "Basic",
     score: 55,
@@ -182,9 +182,14 @@ const backEnd = [
 ];
 const frontEnd = [
   {
-    name: "React.js",
+    name: "React.JS",
     level: "Intermediate",
     score: 80,
+  },
+  {
+    name: "Next.JS",
+    level: "Intermediate",
+    score: 70,
   },
   {
     name: "Tailwind CSS",
@@ -197,31 +202,26 @@ const frontEnd = [
     score: 75,
   },
   {
-    name: "TypeScript",
-    level: "Basic",
-    score: 50,
-  },
-  {
     name: "JQuery",
     level: "Basic",
     score: 60,
   },
   {
-    name: "Next.JS",
+    name: "TypeScript",
     level: "Basic",
-    score: 65,
+    score: 50,
   },
 ];
 const dataAnalysis = [
   {
-    name: "Pandas",
-    level: "Intermediate",
-    score: 80,
-  },
-  {
     name: "Selenium",
     level: "Intermediate",
     score: 85,
+  },
+  {
+    name: "Pandas",
+    level: "Intermediate",
+    score: 80,
   },
   {
     name: "matplotlib",

@@ -26,6 +26,9 @@ export default function ProjectCard(props) {
       </CardContent>
       <CardActions>
         <Button size="small" startIcon={<AiFillGithub />} href={props.repo}>Repo</Button>
+        {props.livedemo && (<Button size="small" href={props.livedemo}>Live Demo</Button>)}
+        
+        
       </CardActions>
     </Card>
     </div>

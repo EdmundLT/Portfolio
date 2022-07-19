@@ -4,7 +4,7 @@ import "./components.css";
 import TypeAnimation from 'react-type-animation';
 const Header = (props) => {
   return (
-    <div className="text-center md:p-20 m-20">
+    <div className="container mx-auto text-center md:p-20 m-20">
       <p className="text-6xl font-Poppins text-sky-100 pb-4">Hello I'm</p>
       <p className="text-3xl font-Poppins text-sky-100 pb-4">{props.name}</p>
 

@@ -3,7 +3,7 @@ import ProjectCard from './Card'
 import { project } from '../../data/config'
 const Projects = () => {
   return (
-    <div className='p-12 bg-slate-100 font-Poppins text-center' id='projects'>
+    <div className='container mx-auto p-12 bg-slate-100 font-Poppins text-center' id='projects'>
     
     <p className="p-4 text-3xl">Project</p>
     <div className="grid grid-rows-2 sm:grid-rows-1 grid-flow-col gap-12 justify-around p-8 text-slate-100">
@@ -15,6 +15,7 @@ const Projects = () => {
           img={pj.projectImg}
           description={pj.projectDescription}
           repo={pj.projectRepo}
+          livedemo={pj.livedemo}
         />
       )
     })}

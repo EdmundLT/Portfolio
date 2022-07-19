@@ -3,7 +3,7 @@ import Work from './Work'
 import { exp } from '../../data/config'
 const Experiences = () => {
   return (
-    <div className="bg-slate-200 text-center p-12 text-black font-Poppins" id='exp'>
+    <div className="container mx-auto bg-slate-200 text-center p-12 text-black font-Poppins" id='exp'>
     <p className="text-3xl p-4">Experiences</p>
     <div className="grid grid-rows-2 sm:grid-rows-1 grid-flow-col gap-12 justify-around p-8 text-slate-100">
       {exp.map((work, i)=>{

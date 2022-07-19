@@ -2,7 +2,7 @@ import React from "react";
 
 const About = (props) => {
   return (
-    <div className="bg-slate-200 p-8 pb-10 content-center text-black md:flex" id="about">
+    <div className="container mx-auto bg-slate-200 p-8 pb-10 content-center text-black md:flex" id="about">
       <div className="text-center p-4">
         <img
           className="rounded-full shadow-lg"

@@ -31,7 +31,7 @@ const mainBody = {
 /* =========== About =========== */
 const about = {
   description:
-    "My name is Long Tang. I am a student of Centennial College in Toronto, CA with a Diploma of Software Engineering. I'm passionate to learn everything related to tech and wanna become a Software Engineer.",
+    "My name is Long Tang. I am a student of Centennial College in Toronto, CA with a Diploma of Software Engineering. I'm passionate to learn everything related to tech and on my way to become a full stack software engineer. Besides software engineering, I am also interested in photography, graphic design and filmmaking. I have a youtube channel sharing my immigrant from Hong Kong to Canada and my life stories.",
   resume:
     "https://docs.google.com/document/d/1KTXo5gSGd3eptt0KtiYrA9LrTXNWjHMLw3Mi1K1bAv4/edit?usp=sharing",
   me: require("../assets/images/me.jpg"),
@@ -111,20 +111,31 @@ const project = [
     projectImg: require("../assets/images/portfolio.png"),
     projectDescription:
       "This is my person website built in React, Tailwind CSS, Material UI",
-    projectRepo: "https://github.com/EdmundLT",
+    projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io",
+    livedemo: "https://edmundlt.github.io/",
   },
   {
-    projectTitle: "Python Learning 100 Days",
-    projectImg: require("../assets/images/python.jpeg"),
-    projectDescription: "My python learning journey",
-    projectRepo: "https://github.com/EdmundLT/Python-Learning-100-Days",
+    projectTitle: "Meet me",
+    projectImg: require("../assets/images/meetme.png"),
+    projectDescription:
+      "Whatsapp Clone web application project with Next.JS, Google Firebase, styled-components, Google Authentication",
+    projectRepo: "https://github.com/EdmundLT/meet-me",
+    livedemo: "https://meet-me-five.vercel.app/",
   },
+  {
+    projectTitle: "Stocker.io",
+    projectImg: require("../assets/images/Stockio.png"),
+    projectDescription:
+      "Full-stack project with MERN Stack to keep watching my stock watchlist, Tools: MongoDB, Express.JS, React.JS, Node.JS",
+    projectRepo: "https://github.com/EdmundLT/Stocker",
+  },
+
 ];
 /* =========== Skills =========== */
 
 const backEnd = [
   {
-    name: "python",
+    name: "Python",
     level: "Intermediate",
     score: 80,
   },
@@ -168,11 +179,6 @@ const backEnd = [
     level: "Basic",
     score: 55,
   },
-  {
-    name: "Socket",
-    level: "Basic",
-    score: 50,
-  },
 ];
 const frontEnd = [
   {
@@ -194,6 +200,16 @@ const frontEnd = [
     name: "TypeScript",
     level: "Basic",
     score: 50,
+  },
+  {
+    name: "JQuery",
+    level: "Basic",
+    score: 60,
+  },
+  {
+    name: "Next.JS",
+    level: "Basic",
+    score: 65,
   },
 ];
 const dataAnalysis = [
@@ -221,11 +237,11 @@ const dataAnalysis = [
 /* =========== Contact =========== */
 
 const contact = {
-  message: "Currently looking for part-time devs opportunities, contact me if you have available position, thanks!",
+  message:
+    "Currently looking for part-time devs opportunities, contact me if you have available position, thanks!",
   email: "edmundtlca@gmail.com",
-  sendemail: "mailto:edmundtlca@gmail.com"
-
-}
+  sendemail: "mailto:edmundtlca@gmail.com",
+};
 /* =========== Footer =========== */
 
 /* =========== Export =========== */
@@ -241,5 +257,5 @@ export {
   backEnd,
   frontEnd,
   dataAnalysis,
-  contact
+  contact,
 };

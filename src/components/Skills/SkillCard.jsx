@@ -3,7 +3,7 @@ import React from "react";
 const SkillCard = (props) => {
   return (
     <div>
-      <div className="text-slate-100 rounded-xl border shadow-md bg-gray-800 border-gray-700 hover:bg-gray-700 text-center p-8">
+      <div className="text-[#2C3333] rounded-xl border shadow-md bg-[#E7F6F2] border-gray-700 hover:bg-gray-700 hover:text-[#E7F6F2] text-center p-8">
         <p className="text-2xl pb-2">{props.title}</p>
         <ul>
           {props.list.map((skill, i) => {

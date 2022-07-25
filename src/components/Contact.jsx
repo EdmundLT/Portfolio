@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = (props) => {
   return (
-    <div className="container mx-auto bg-slate-100 text-center font-Poppins p-8 content-center justify-around" id="contact">
+    <div className="container rounded-lg mx-auto bg-slate-100 text-center font-Poppins p-8 content-center justify-around" id="contact">
       <div className="md:text-left pl-4 pt-6">
         <p className="text-3xl pb-2">Contact Me</p>
         <p>{props.message}</p>
@@ -12,7 +12,7 @@ const Contact = (props) => {
         <p className="pb-4">{props.email}</p>
         <a
           href={props.sendemail}
-          className="text-black hover:bg-sky-500 border-solid border-2 border-black font-Poppins py-2 px-4 rounded"
+          className="text-black hover:bg-sky-500 hover:text-[#E7F6F2] border-solid border-2 border-black font-Poppins py-2 px-4 rounded"
         >
           Send email
         </a>

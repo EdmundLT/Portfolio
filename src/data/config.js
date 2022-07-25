@@ -43,7 +43,7 @@ const education = {
   location: "Toronto CA",
   program: "Diploma of Software Engineering",
   startDate: "Jan 2022",
-  gradDate: "Apr 2023",
+  gradDate: "Present (Grad in Apr 2023)",
 };
 const courses = [
   {
@@ -112,7 +112,7 @@ const project = [
     projectDescription:
       "This is my person website built in React, Tailwind CSS, Material UI",
     projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io",
-    livedemo: "https://edmundlt.github.io/",
+    livedemo: "https://edmundlt.tech",
   },
   {
     projectTitle: "Meet me",

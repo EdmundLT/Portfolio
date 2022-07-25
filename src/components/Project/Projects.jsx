@@ -3,7 +3,7 @@ import ProjectCard from './Card'
 import { project } from '../../data/config'
 const Projects = () => {
   return (
-    <div className='container mx-auto p-12 bg-slate-100 font-Poppins text-center' id='projects'>
+    <div className='container mx-auto p-12 bg-slate-100 rounded-lg font-Poppins text-center' id='projects'>
     
     <p className="p-4 text-3xl">Project</p>
     <div className="grid grid-rows-1 gap-6 md:grid-cols-2 lg:grid-cols-3 text-slate-100 xl:grid-cols-3 justify-center">

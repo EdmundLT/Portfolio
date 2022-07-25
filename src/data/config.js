@@ -126,10 +126,9 @@ const project = [
     projectTitle: "Stocker.io",
     projectImg: require("../assets/images/Stockio.png"),
     projectDescription:
-      "Full-stack project with MERN Stack to keep watching my stock watchlist, Tools: MongoDB, Express.JS, React.JS, Node.JS",
-    projectRepo: "https://github.com/EdmundLT/Stocker",
+      "Fullstack Stock watching web application project with Next.JS, APIs, SSR, Firebase, Tailwind CSS, Google Authentication",
+    projectRepo: "https://stocker-io.vercel.app/",
   },
-
 ];
 /* =========== Skills =========== */
 

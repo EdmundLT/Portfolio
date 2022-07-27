@@ -85,7 +85,7 @@ const courses = [
 const exp = [
   {
     title: "IT Technician",
-    company: "TES (Worked for Kyndryl)",
+    company: "Kyndryl",
     logo: require("../assets/images/kyndryl.jpeg"),
     location: "Toronto CA",
     type: "Contract Part-time",

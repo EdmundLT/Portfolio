@@ -84,6 +84,16 @@ const courses = [
 
 const exp = [
   {
+    title: "IT Technician",
+    company: "TES (Worked for Kyndryl)",
+    logo: require("../assets/images/kyndryl.jpeg"),
+    location: "Toronto CA",
+    type: "Contract Part-time",
+    startDate: "JUL 2022",
+    endDate: "Present",
+    duration: "1 mos",
+  },
+  {
     title: "Site Assistant",
     company: "Lap Kai Engineering Company Limited",
     location: "Hong Kong",
@@ -92,16 +102,6 @@ const exp = [
     startDate: "Mar 2019",
     endDate: "Mar 2020",
     duration: "1yr 1mo",
-  },
-  {
-    title: "Sales Representative",
-    company: "Marathon Sport",
-    logo: require("../assets/images/marathon.png"),
-    location: "Hong Kong",
-    type: "Contract Part-time",
-    startDate: "Apr 2016",
-    endDate: "Aug 2016",
-    duration: "5 mos",
   },
 ];
 /* =========== Project =========== */

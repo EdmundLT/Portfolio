@@ -5,17 +5,17 @@ import TypeAnimation from 'react-type-animation';
 const Header = (props) => {
   return (
     <div className="container mx-auto text-center md:p-20 m-20">
-      <p className="text-6xl font-Poppins text-[#231955] pb-4">Hello I'm</p>
-      <p className="text-3xl font-Poppins text-[#231955] pb-4">{props.name}</p>
+      <p className="text-6xl font-Poppins text-[#00ADB5] pb-4">Hello I'm</p>
+      <p className="text-3xl font-Poppins text-[#00ADB5] pb-4">{props.name}</p>
 
       <TypeAnimation
         cursor={true}
         sequence={[props.message, 2000,'']}
         repeat={Infinity}
-        className="text-2xl font-Poppins text-[#231955] pb-4"
+        className="text-2xl font-Poppins text-[#00ADB5] pb-4"
        />
         
-      <ul className="text-[#231955] flex gap-6 justify-center p-4">
+      <ul className="text-[#00ADB5] flex gap-6 justify-center p-4">
         <li>
           <a className="" href="https://github.com/EdmundLT">
             <SiGithub size="35px" />

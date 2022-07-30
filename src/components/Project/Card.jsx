@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Card from '@mui/material/Card';
+import FadeIn from "react-fade-in/lib/FadeIn";
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -9,6 +10,10 @@ import{AiFillGithub} from 'react-icons/ai'
 export default function ProjectCard(props) {
   return (
     <div className="shadow-xl rounded-xl">
+    <FadeIn
+    transitionDuration={1000}
+    delay={750}
+    >
     <Card sx={{ maxWidth: 500 }}>
       <CardMedia
         component="img"
@@ -31,6 +36,7 @@ export default function ProjectCard(props) {
         
       </CardActions>
     </Card>
+    </FadeIn>
     </div>
   );
 }

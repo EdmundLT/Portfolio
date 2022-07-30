@@ -60,6 +60,7 @@ const about = {
 const education = {
   school: "Centennial College",
   location: "Toronto CA",
+  logo:require("../assets/images/Centennial_College.png"),
   program: "Diploma of Software Engineering",
   startDate: "Jan 2022",
   gradDate: "Present (Grad in Apr 2023)",
@@ -106,21 +107,23 @@ const exp = [
     title: "IT Technician",
     company: "Kyndryl",
     logo: require("../assets/images/kyndryl.jpeg"),
-    location: "Toronto CA",
+    coUrl: "https://www.kyndryl.com/ca/en",
+    location: "Toronto, CA",
     type: "Contract Part-time",
     startDate: "JUL 2022",
     endDate: "Present",
-    duration: "1 mos",
+    duration: "1 month",
   },
   {
     title: "Site Assistant",
-    company: "Lap Kai Engineering Company Limited",
+    company: "Lap Kai Eng Co Limited",
+    coUrl: "http://www.lapkai.com/",
     location: "Hong Kong",
     logo: require("../assets/images/download.png"),
     type: "Contract Full-time",
     startDate: "Mar 2019",
     endDate: "Mar 2020",
-    duration: "1yr 1mo",
+    duration: "1yr 1month",
   },
 ];
 /* =========== Project =========== */
@@ -130,7 +133,7 @@ const project = [
     projectImg: require("../assets/images/portfolio.png"),
     projectDescription:
       "This is my person website built in React, Tailwind CSS, Material UI",
-    projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io",
+    projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io/tree/master",
     livedemo: "https://edmundlt.tech",
   },
   {

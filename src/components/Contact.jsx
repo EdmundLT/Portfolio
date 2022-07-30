@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = (props) => {
   return (
-    <div className="container rounded-lg mx-auto bg-slate-100 text-center font-Poppins p-8 content-center justify-around" id="contact">
+    <div className="container rounded-lg mx-auto bg-[#F9F7F7] text-center font-Poppins p-8 content-center justify-around" id="contact">
       <div className="md:text-left pl-4 pt-6">
         <p className="text-3xl pb-2">Contact Me</p>
         <p>{props.message}</p>

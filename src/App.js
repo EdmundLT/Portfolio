@@ -30,6 +30,7 @@ function App() {
 
       <Education
         key="edu"
+        logo={education.logo}
         school={education.school}
         location={education.location}
         program={education.program}

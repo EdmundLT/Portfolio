@@ -1,16 +1,19 @@
 import React from "react";
-
+import FadeIn from "react-fade-in/lib/FadeIn";
 const About = (props) => {
   return (
-    <div className="container mx-auto bg-[#A5C9CA] p-8 pb-10 content-center text-black md:flex rounded-lg" id="about">
+    <div className="container mx-auto bg-[#EEEEEE] p-8 pb-10 content-center text-black md:flex rounded-lg" id="about">
       <div className="text-center p-4">
+      <FadeIn
+      transitionDuration={1000}>
         <img
-          className="rounded-full shadow-lg"
+          className="rounded-full shadow-lg mx-auto"
           src={props.me}
           alt="profilepicture"
           width="375"
           height="375"
         ></img>
+        </FadeIn>
       </div>
       <div className="m-10 text-center text-black md:w-1/2">
         <p className="text-3xl pb-4 font-Poppins">About me</p>

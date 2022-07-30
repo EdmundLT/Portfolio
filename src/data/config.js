@@ -1,3 +1,22 @@
+import moment from "moment";
+
+function countMonth(startDate) {
+  const month = {
+    Jan: 1,
+    Feb: 2,
+    Mar: 3,
+    Apr: 4,
+    May: 5,
+    Jun: 6,
+    Jul: 7,
+    Aug: 8,
+    Sep: 9,
+    Oct: 10,
+    Nov: 11,
+    Dec: 12,
+  };
+  return moment(startDate)
+}
 /* =========== Nav =========== */
 const navBar = {
   show: true,
@@ -99,7 +118,7 @@ const exp = [
     location: "Hong Kong",
     logo: require("../assets/images/download.png"),
     type: "Contract Full-time",
-    startDate: "Mar 2019",
+    startDate: countMonth("Mar 2019"),
     endDate: "Mar 2020",
     duration: "1yr 1mo",
   },
@@ -128,7 +147,7 @@ const project = [
     projectDescription:
       "Fullstack Stock watching web application project with Next.JS, APIs, SSR, Firebase, Tailwind CSS, Google Authentication",
     projectRepo: "https://github.com/EdmundLT/next-stocker",
-    livedemo: "https://stocker-io.vercel.app/"
+    livedemo: "https://stocker-io.vercel.app/",
   },
 ];
 /* =========== Skills =========== */

@@ -1,39 +1,52 @@
 import React from "react";
-import { SiInstagram, SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
+import {
+  SiInstagram,
+  SiGithub,
+  SiLinkedin,
+  SiTwitter,
+  SiYoutube,
+} from "react-icons/si";
 import "./components.css";
-import TypeAnimation from 'react-type-animation';
-const Header = (props) => {
+import TypeAnimation from "react-type-animation";
+import { elementControl } from "../data/config";
+const Header = ({names, message, socialNetwork}) => {
   return (
     <div className="container mx-auto text-center md:p-20 m-20">
-      <p className="text-6xl font-Poppins text-[#00ADB5] pb-4">Hello I'm</p>
-      <p className="text-3xl font-Poppins text-[#00ADB5] pb-4">{props.name}</p>
+      <p className="text-6xl font-Poppins text-[#000000] pb-4">Hello I'm</p>
+      <p className="text-3xl font-Poppins text-[#000000] pb-4">{names}</p>
 
-      <TypeAnimation
+      {elementControl.headerTextAnimation ? (<TypeAnimation
         cursor={true}
-        sequence={[props.message, 2000,'']}
+        sequence={[message, 2000, ""]}
         repeat={Infinity}
-        className="text-2xl font-Poppins text-[#00ADB5] pb-4"
-       />
-        
-      <ul className="text-[#00ADB5] flex gap-6 justify-center p-4">
+        className="text-2xl font-Poppins text-[#000000] pb-4"
+      />): (<p className="text-2xl font-Poppins text-[#000000] pb-4">{message}</p>)}
+      
+      
+      <ul className="text-[#000000] flex gap-6 justify-center p-4">
         <li>
-          <a className="" href="https://github.com/EdmundLT">
+          <a className="" href={socialNetwork.github}>
             <SiGithub size="35px" />
           </a>
         </li>
         <li>
-          <a className="" href="https://www.linkedin.com/in/longtang21/">
+          <a className="" href={socialNetwork.linkedIn}>
             <SiLinkedin size="35px" />
           </a>
         </li>
         <li>
-          <a className="" href="https://twitter.com/EdmundTL0921">
+          <a className="" href={socialNetwork.twitter}>
             <SiTwitter size="35px" />
           </a>
         </li>
         <li>
-          <a className="" href="https://www.instagram.com/edmund_tangca/">
+          <a className="" href={socialNetwork.instagram}>
             <SiInstagram size="35px" />
+          </a>
+        </li>
+        <li>
+          <a className="" href={socialNetwork.youtube}>
+            <SiYoutube size="35px" />
           </a>
         </li>
       </ul>

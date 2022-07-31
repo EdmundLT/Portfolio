@@ -7,17 +7,18 @@ import Projects from "./Project/Projects";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import { mainBody, navBar, about, education, contact } from "../data/config";
+import { headerContent, elementControl, about, education, contact } from "../data/config";
 import React from "react";
 
 function Home() {
   return (
     <div>
-      {navBar.show && <Nav />}
+      {elementControl.navBar && <Nav />}
       <Header
-        key={mainBody.name}
-        name={mainBody.name}
-        message={mainBody.message}
+        key={headerContent.name}
+        names={headerContent.name}
+        message={headerContent.message}
+        socialNetwork={headerContent.SnUrl}
         id="top"
       />
 

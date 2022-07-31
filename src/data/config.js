@@ -1,51 +1,24 @@
-// import moment from "moment";
-
-// function countMonth(startDate) {
-//   const month = {
-//     Jan: 1,
-//     Feb: 2,
-//     Mar: 3,
-//     Apr: 4,
-//     May: 5,
-//     Jun: 6,
-//     Jul: 7,
-//     Aug: 8,
-//     Sep: 9,
-//     Oct: 10,
-//     Nov: 11,
-//     Dec: 12,
-//   };
-//   return moment.format(startDate)
-// }
 /* =========== Nav =========== */
-const navBar = {
-  show: true,
+const elementControl = {
+  navBar: true,
+  headerTextAnimation: true,
 };
 
-/* =========== mainBody =========== */
-const mainBody = {
+
+/* =========== Header Content =========== */
+const headerContent = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   name: "Edmund Tang",
   message: "Outstanding or Out",
-  icons: [
-    {
-      image: "SiGithub",
-      url: "https://github.com/EdmundLT",
-    },
-    {
-      image: "SiLinkedin",
-      url: "https://www.linkedin.com/in/longtang21/",
-    },
-    {
-      image: "SiTwitter",
-      url: "https://twitter.com/EdmundTL0921",
-    },
-    {
-      image: "SiInstagram",
-      url: "https://www.instagram.com/edmund_tangca/",
-    },
-  ],
+  SnUrl: {
+    github:"https://github.com/EdmundLT",
+    linkedIn:"https://www.linkedin.com/in/longtang21/",
+    twitter:"https://twitter.com/EdmundTL0921",
+    instagram:"https://www.instagram.com/edmund_tangca/",
+    youtube :"https://edmundlt.tech/youtube"
+  }
 };
+
 
 /* =========== About =========== */
 const about = {
@@ -65,40 +38,6 @@ const education = {
   startDate: "Jan 2022",
   gradDate: "Present (Grad in Apr 2023)",
 };
-const courses = [
-  {
-    courseCode: "COMP100",
-    description: "C# Programming 1",
-  },
-  {
-    courseCode: "COMP213",
-    description: "Web Design",
-  },
-  {
-    courseCode: "COMP120",
-    description: "Sw Eng Fund",
-  },
-  {
-    courseCode: "COMP123",
-    description: "C# Programming 2",
-  },
-  {
-    courseCode: "COMP122",
-    description: "DB Concept",
-  },
-  {
-    courseCode: "COMP125",
-    description: "Client-Side Web Dev",
-  },
-  {
-    courseCode: "COMP225",
-    description: "Sw Requirement",
-  },
-  {
-    courseCode: "COMP301",
-    description: "Unix OS",
-  },
-];
 
 /* =========== Experiences =========== */
 
@@ -269,11 +208,10 @@ const contact = {
 /* =========== Export =========== */
 
 export {
-  navBar,
-  mainBody,
+  elementControl,
+  headerContent,
   about,
   education,
-  courses,
   exp,
   project,
   backEnd,

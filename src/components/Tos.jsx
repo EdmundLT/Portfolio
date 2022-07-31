@@ -1,6 +1,6 @@
 const Tos = () => {
   return (
-    <div className="mx-auto text-white space-y-2 p-4">
+    <div className="mx-auto text-black space-y-2 p-4">
       <p className="text-3xl text-center py-2 font-bold">Terms and Conditions</p>
       <p>Last updated: July 31, 2022</p>
       <p>

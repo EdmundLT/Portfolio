@@ -4,21 +4,19 @@ const elementControl = {
   headerTextAnimation: true,
 };
 
-
 /* =========== Header Content =========== */
 const headerContent = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
   name: "Edmund Tang",
   message: "Outstanding or Out",
   SnUrl: {
-    github:"https://github.com/EdmundLT",
-    linkedIn:"https://www.linkedin.com/in/longtang21/",
-    twitter:"https://twitter.com/EdmundTL0921",
-    instagram:"https://www.instagram.com/edmund_tangca/",
-    youtube :"https://edmundlt.tech/youtube"
-  }
+    github: "https://github.com/EdmundLT",
+    linkedIn: "https://www.linkedin.com/in/longtang21/",
+    twitter: "https://twitter.com/EdmundTL0921",
+    instagram: "https://www.instagram.com/edmund_tangca/",
+    youtube: "https://edmundlt.tech/youtube",
+  },
 };
-
 
 /* =========== About =========== */
 const about = {
@@ -33,7 +31,7 @@ const about = {
 const education = {
   school: "Centennial College",
   location: "Toronto CA",
-  logo:require("../assets/images/Centennial_College.png"),
+  logo: require("../assets/images/Centennial_College.png"),
   program: "Diploma of Software Engineering",
   startDate: "Jan 2022",
   gradDate: "Present (Grad in Apr 2023)",
@@ -51,7 +49,7 @@ const exp = [
     type: "Contract Part-time",
     startDate: "JUL 2022",
     endDate: "Present",
-    duration: "1 month",
+    duration: "2 month",
   },
   {
     title: "Site Assistant",

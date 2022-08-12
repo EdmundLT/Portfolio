@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Nav = () => {
   const Title = "<Edmund Tang />";
   return (
-    <nav class=" sticky top-0 z-50 bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded  backdrop-filter backdrop-blur-lg bg-opacity-30">
+    <nav class=" sticky top-0 z-50 bg-white border-gray-200 px-2 sm:px-4 py-2.5 backdrop-filter backdrop-blur-lg bg-opacity-30">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <a href="/" class="flex items-center">
           <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-black sm:px-4 ">

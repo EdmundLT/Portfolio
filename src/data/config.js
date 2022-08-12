@@ -200,8 +200,8 @@ const dataAnalysis = [
 const contact = {
   message:
     "Currently looking for part-time devs opportunities, contact me if you have available position, thanks!",
-  email: "edmundtlca@gmail.com",
-  sendemail: "mailto:edmundtlca@gmail.com",
+  email: "edmundtl.work@gmail.com",
+  sendemail: "mailto:edmundtl.work@gmail.com",
 };
 /* =========== Footer =========== */
 

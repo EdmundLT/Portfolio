@@ -66,20 +66,12 @@ const exp = [
 /* =========== Project =========== */
 const project = [
   {
-    projectTitle: "My portfolio",
-    projectImg: require("../assets/images/portfolio.png"),
+    projectTitle: "Fake Financial Data API",
+    projectImg: require("../assets/images/ffd.png"),
     projectDescription:
-      "This is my person website built in React, Tailwind CSS, Material UI",
-    projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io/tree/master",
-    livedemo: "https://edmundlt.tech",
-  },
-  {
-    projectTitle: "Meet me",
-    projectImg: require("../assets/images/meetme.png"),
-    projectDescription:
-      "Whatsapp Clone web application project with Next.JS, Google Firebase, styled-components, Google Authentication",
-    projectRepo: "https://github.com/EdmundLT/meet-me",
-    livedemo: "https://meet-me-five.vercel.app/",
+      "A simple free API generating random stock data for testing and data analysis practice.",
+    projectRepo: "https://github.com/EdmundLT/fake-financial-data-io",
+    livedemo: "http://ffd-api.click/",
   },
   {
     projectTitle: "Stocker.io",
@@ -88,6 +80,14 @@ const project = [
       "Fullstack Stock watching web application project with Next.JS, APIs, SSR, Firebase, Tailwind CSS, Google Authentication",
     projectRepo: "https://github.com/EdmundLT/next-stocker",
     livedemo: "https://stocker-io.vercel.app/",
+  },
+  {
+    projectTitle: "My portfolio",
+    projectImg: require("../assets/images/portfolio.png"),
+    projectDescription:
+      "This is my person website built in React, Tailwind CSS, Material UI",
+    projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io/tree/master",
+    livedemo: "https://edmundlt.tech",
   },
 ];
 /* =========== Skills =========== */
@@ -217,3 +217,4 @@ export {
   dataAnalysis,
   contact,
 };
+

@@ -49,7 +49,7 @@ const exp = [
     type: "Contract Part-time",
     startDate: "JUL 2022",
     endDate: "Present",
-    duration: "2 month",
+    duration: "2 months",
   },
   {
     title: "Site Assistant",

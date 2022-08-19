@@ -21,7 +21,7 @@ const headerContent = {
 /* =========== About =========== */
 const about = {
   description:
-    "My name is Long Tang. I am a student of Centennial College in Toronto, CA with a Diploma of Software Engineering. I'm passionate to learn everything related to tech and on my way to become a full stack software engineer. Besides software engineering, I am also interested in photography, graphic design and filmmaking. I have a youtube channel sharing my immigrant from Hong Kong to Canada and my life stories.",
+    "My name is Long Tang. I am a student of Centennial College in Toronto, CA with a Diploma of Software Engineering. I'm passionate to learn everything related to tech and on my way to become a backEnd software engineer. Besides software engineering, I am also interested in photography, graphic design and filmmaking. I have a youtube channel sharing my immigrant from Hong Kong to Canada and my life stories.",
   resume:
     "https://docs.google.com/document/d/1KTXo5gSGd3eptt0KtiYrA9LrTXNWjHMLw3Mi1K1bAv4/edit?usp=sharing",
   me: require("../assets/images/me.jpg"),

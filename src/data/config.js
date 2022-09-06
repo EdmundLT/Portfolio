@@ -49,7 +49,7 @@ const exp = [
     type: "Contract Part-time",
     startDate: "JUL 2022",
     endDate: "Present",
-    duration: "2 months",
+    duration: "3 months",
   },
   {
     title: "Site Assistant",
@@ -60,7 +60,7 @@ const exp = [
     type: "Contract Full-time",
     startDate: "Mar 2019",
     endDate: "Mar 2020",
-    duration: "1yr 1month",
+    duration: "1 yr 1 month",
   },
 ];
 /* =========== Project =========== */
@@ -69,7 +69,9 @@ const project = [
     projectTitle: "Fake Financial Data API",
     projectImg: require("../assets/images/ffd.png"),
     projectDescription:
-      "A simple free API generating random stock data for testing and data analysis practice.",
+      `Free API builds for testing and data analysis practice. 
+      Stacks: React, Express, PostgreSQL, API, Jest (Unit Test).
+      Project and Server deploy on AWS EC2 and RDS.`,
     projectRepo: "https://github.com/EdmundLT/fake-financial-data-io",
     livedemo: "http://ffd-api.click/",
   },
@@ -85,7 +87,7 @@ const project = [
     projectTitle: "My portfolio",
     projectImg: require("../assets/images/portfolio.png"),
     projectDescription:
-      "This is my person website built in React, Tailwind CSS, Material UI",
+      "This is my personal website built in React, Tailwind CSS, Material UI",
     projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io/tree/master",
     livedemo: "https://edmundlt.tech",
   },
@@ -94,12 +96,27 @@ const project = [
 
 const backEnd = [
   {
+    name: "Express.JS",
+    level: "Intermediate",
+    score: 80,
+  },
+  {
+    name: "Node.JS",
+    level: "Intermediate",
+    score: 75,
+  },
+  {
     name: "Python",
     level: "Intermediate",
     score: 80,
   },
   {
-    name: "JavaScript",
+    name: "MongoDB",
+    level: "Intermediate",
+    score: 70,
+  },
+  {
+    name: "PostgreSQL",
     level: "Intermediate",
     score: 75,
   },
@@ -107,11 +124,6 @@ const backEnd = [
     name: "C#",
     level: "Basic",
     score: 55,
-  },
-  {
-    name: "Express.js",
-    level: "Intermediate",
-    score: 80,
   },
   {
     name: "SQL",
@@ -127,11 +139,6 @@ const backEnd = [
     name: "Web Scrapping",
     level: "Intermediate",
     score: 80,
-  },
-  {
-    name: "MongoDB",
-    level: "Intermediate",
-    score: 70,
   },
   {
     name: "GrpahQL",
@@ -156,7 +163,7 @@ const frontEnd = [
     score: 75,
   },
   {
-    name: "HTML / CSS / JS",
+    name: "HTML / CSS JS",
     level: "Intermediate",
     score: 75,
   },

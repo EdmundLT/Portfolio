@@ -43,7 +43,7 @@ const exp = [
   {
     title: "IT Technician",
     company: "Royal Bank Canada",
-    logo: require("../assets/images/rbc.jpg"),
+    logo: require("../assets/images/rbc-logo.jpg"),
     coUrl: "https://www.rbcroyalbank.com/personal.html",
     location: "Toronto, CA",
     type: "Contract Part-time",

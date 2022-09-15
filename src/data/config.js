@@ -42,9 +42,9 @@ const education = {
 const exp = [
   {
     title: "IT Technician",
-    company: "Kyndryl",
-    logo: require("../assets/images/kyndryl.jpeg"),
-    coUrl: "https://www.kyndryl.com/ca/en",
+    company: "Royal Bank Canada",
+    logo: require("../assets/images/rbc.jpg"),
+    coUrl: "https://www.rbcroyalbank.com/personal.html",
     location: "Toronto, CA",
     type: "Contract Part-time",
     startDate: "JUL 2022",

@@ -46,10 +46,10 @@ const exp = [
     logo: require("../assets/images/rbc-logo.jpg"),
     coUrl: "https://www.rbcroyalbank.com/personal.html",
     location: "Toronto, CA",
-    type: "Contract Part-time",
+    type: "Contract Full-time",
     startDate: "JUL 2022",
     endDate: "Present",
-    duration: "3 months",
+    duration: "7 months",
   },
   {
     title: "Site Assistant",
@@ -76,6 +76,14 @@ const project = [
     livedemo: "http://ffd-api.click/",
   },
   {
+    projectTitle: "Clipz",
+    projectImg: require("../assets/images/ugs.png"),
+    projectDescription:
+      "Video sharing application in Angular 14 and Google Firebase Storage, Database and Authentications.",
+    projectRepo: "https://github.com/EdmundLT/Clips",
+    livedemo: "https://clipz-blond.vercel.app/",
+  },
+  {
     projectTitle: "Stocker.io",
     projectImg: require("../assets/images/Stockio.png"),
     projectDescription:
@@ -84,12 +92,12 @@ const project = [
     livedemo: "https://stocker-io.vercel.app/",
   },
   {
-    projectTitle: "My portfolio",
-    projectImg: require("../assets/images/portfolio.png"),
+    projectTitle: "Used Good Store",
+    projectImg: require("../assets/images/ugs.png"),
     projectDescription:
-      "This is my personal website built in React, Tailwind CSS, Material UI",
-    projectRepo: "https://github.com/EdmundLT/EdmundLT.github.io/tree/master",
-    livedemo: "https://edmundlt.tech",
+      "Student Project - developed a used-product trading platform in MEAN Stack",
+    projectRepo: "https://github.com/EdmundLT/the-goods-store",
+    livedemo: "https://used-good-store.vercel.app/",
   },
 ];
 /* =========== Skills =========== */
@@ -97,13 +105,13 @@ const project = [
 const backEnd = [
   {
     name: "Express.JS",
-    level: "Intermediate",
+    level: "Experienced",
     score: 80,
   },
   {
     name: "Node.JS",
-    level: "Intermediate",
-    score: 75,
+    level: "Experienced",
+    score: 80,
   },
   {
     name: "Python",
@@ -123,7 +131,7 @@ const backEnd = [
   {
     name: "C#",
     level: "Basic",
-    score: 55,
+    score: 60,
   },
   {
     name: "SQL",
@@ -148,9 +156,14 @@ const backEnd = [
 ];
 const frontEnd = [
   {
+    name: "Angular 14",
+    level: "Intermediate",
+    score: 70,
+  },
+  {
     name: "React.JS",
     level: "Intermediate",
-    score: 80,
+    score: 70,
   },
   {
     name: "Next.JS",

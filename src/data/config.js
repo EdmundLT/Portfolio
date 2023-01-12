@@ -84,14 +84,6 @@ const project = [
     livedemo: "https://clipz-blond.vercel.app/",
   },
   {
-    projectTitle: "Stocker.io",
-    projectImg: require("../assets/images/Stockio.png"),
-    projectDescription:
-      "Fullstack Stock watching web application project with Next.JS, APIs, SSR, Firebase, Tailwind CSS, Google Authentication",
-    projectRepo: "https://github.com/EdmundLT/next-stocker",
-    livedemo: "https://stocker-io.vercel.app/",
-  },
-  {
     projectTitle: "Used Good Store",
     projectImg: require("../assets/images/ugs.png"),
     projectDescription:

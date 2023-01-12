@@ -77,7 +77,7 @@ const project = [
   },
   {
     projectTitle: "Clipz",
-    projectImg: require("../assets/images/ugs.png"),
+    projectImg: require("../assets/images/clipz.png"),
     projectDescription:
       "Video sharing application in Angular 14 and Google Firebase Storage, Database and Authentications.",
     projectRepo: "https://github.com/EdmundLT/Clips",

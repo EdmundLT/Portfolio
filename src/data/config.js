@@ -34,7 +34,7 @@ const education = {
   logo: require("../assets/images/Centennial_College.png"),
   program: "Diploma of Software Engineering",
   startDate: "Jan 2022",
-  gradDate: "Present (Grad in Apr 2023)",
+  gradDate: "Grad in Apr 2023",
 };
 
 /* =========== Experiences =========== */

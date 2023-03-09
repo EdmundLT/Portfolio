@@ -41,15 +41,26 @@ const education = {
 
 const exp = [
   {
-    title: "IT Technician",
+    title: "Developer",
     company: "Royal Bank Canada",
-    logo: require("../assets/images/rbc-logo.jpg"),
+    logo: require("../assets/images/rbc.png"),
     coUrl: "https://www.rbcroyalbank.com/personal.html",
     location: "Toronto, CA",
     type: "Contract Full-time",
+    startDate: "Dec 2022",
+    endDate: "Present",
+    duration: "3 months",
+  },
+  {
+    title: "IT Technician",
+    company: "Royal Bank Canada",
+    logo: require("../assets/images/rbc.png"),
+    coUrl: "https://www.rbcroyalbank.com/personal.html",
+    location: "Toronto, CA",
+    type: "Contract Part-time",
     startDate: "JUL 2022",
     endDate: "Present",
-    duration: "7 months",
+    duration: "9 months",
   },
   {
     title: "Site Assistant",
@@ -68,6 +79,7 @@ const project = [
   {
     projectTitle: "Fake Financial Data API",
     projectImg: require("../assets/images/ffd.png"),
+    createdAt: "Aug 2022",
     projectDescription:
       `Free API builds for testing and data analysis practice. 
       Stacks: React, Express, PostgreSQL, API, Jest (Unit Test).
@@ -78,6 +90,7 @@ const project = [
   {
     projectTitle: "Clipz",
     projectImg: require("../assets/images/clipz.png"),
+    createdAt: "Nov 2022",
     projectDescription:
       "Video sharing application in Angular 14 and Google Firebase Storage, Database and Authentications.",
     projectRepo: "https://github.com/EdmundLT/Clips",
@@ -86,6 +99,7 @@ const project = [
   {
     projectTitle: "Used Good Store",
     projectImg: require("../assets/images/ugs.png"),
+    createdAt: "Dec 2022",
     projectDescription:
       "Student Project - developed a used-product trading platform in MEAN Stack",
     projectRepo: "https://github.com/EdmundLT/the-goods-store",

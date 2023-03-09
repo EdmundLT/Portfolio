@@ -1,20 +1,89 @@
-import * as React from 'react';
-import Card from '@mui/material/Card';
+import * as React from "react";
 import FadeIn from "react-fade-in/lib/FadeIn";
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
-import{AiFillGithub} from 'react-icons/ai'
+import { about } from "../../data/config";
 export default function ProjectCard(props) {
   return (
-    <div className="shadow-xl rounded-xl">
-    <FadeIn
-    transitionDuration={1000}
-    delay={750}
-    >
-    <Card sx={{ maxWidth: 500 }}>
+    <div className="text-black shadow-xl rounded-lg p-2">
+      <FadeIn transitionDuration={1000} delay={750}>
+        <div className="chat chat-start">
+          <div className="chat-image avatar">
+            <div className="w-14 rounded-full">
+              <img src={about.me} alt="me" />
+            </div>
+          </div>
+          <div className="chat-header">
+            {props.title}
+            <time className="pl-2 text-xs opacity-50">{props.createdAt}</time>
+          </div>
+          <div className="chat-bubble chat-bubble-info text-left">
+            {props.description}
+          </div>
+        </div>
+        {/* Right */}
+        <div className="chat chat-end">
+          <div className="chat-image avatar">
+            <div className="w-14 rounded-full">
+              <img src={about.me} alt="me" />
+            </div>
+          </div>
+          <div className="chat-header">Interviewer</div>
+          <div className="chat-bubble chat-bubble-success">
+            How is it look like?
+          </div>
+          <div className="chat-footer opacity-50">Seen at 09:21</div>
+        </div>
+        <div className="chat chat-start">
+          <div className="chat-image avatar">
+            <div className="w-14 rounded-full">
+              <img src={about.me} alt="me" />
+            </div>
+          </div>
+          <div className="chat-header">
+            Edmund Tang
+            <time className="pl-2 text-xs opacity-50">Just now</time>
+          </div>
+          <div className="chat-bubble chat-bubble-info">
+            <div className="w-30 m-2">
+              <img className="rounded-lg" src={props.img} alt="me" />
+            </div>
+          </div>
+        </div>
+        <div className="chat chat-start">
+          <div className="chat-image avatar">
+            <div className="w-14 rounded-full">
+              <img src={about.me} alt="me" />
+            </div>
+          </div>
+          <div className="chat-header">
+            Edmund Tang
+            <time className="pl-2 text-xs opacity-50">Just now</time>
+          </div>
+          <div className="chat-bubble chat-bubble-info">
+            <a href={props.livedemo}>
+              <p className="underline underline-offset-1">Check it here!</p>
+            </a>
+          </div>
+        </div>
+        <div className="chat chat-start">
+          <div className="chat-image avatar">
+            <div className="w-14 rounded-full">
+              <img src={about.me} alt="me" />
+            </div>
+          </div>
+          <div className="chat-header">
+            Edmund Tang
+            <time className="pl-2 text-xs opacity-50">Just now</time>
+          </div>
+          <div className="chat-bubble chat-bubble-info">
+            <a href={props.repo}>
+              <p className="underline underline-offset-1">
+                And here is the repo!
+              </p>
+            </a>
+          </div>
+        </div>
+
+        {/* <Card sx={{ maxWidth: 500 }}>
       <CardMedia
         component="img"
         height="140"
@@ -35,8 +104,8 @@ export default function ProjectCard(props) {
         
         
       </CardActions>
-    </Card>
-    </FadeIn>
+    </Card> */}
+      </FadeIn>
     </div>
   );
 }

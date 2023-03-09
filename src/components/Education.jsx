@@ -10,16 +10,20 @@ const Education = (props) => {
       <p className="text-3xl p-8">Education</p>
 
       <FadeIn delay={750} transitionDuration={1000}>
-      <img src={props.logo} alt="CClogo" className="mx-auto pb-4 rounded-full shadow-sm"/>
-        <p className="text-2xl p-2">
-          {props.school} - <span className="text-sm">{props.location}</span>
-        </p>
-        <p className="text-1xl p-2 text-inherit font-medium">
-          {props.program}
-        </p>
-        <p className="text-lg p-2">
-          {props.start} - {props.grad}
-        </p>
+        <div className="card w-96 bg-info-content shadow-xl text-white mx-auto">
+          <figure className="px-10 pt-10">
+            <img
+              src={props.logo}
+              alt="Shoes"
+              className="rounded-xl"
+            />
+          </figure>
+          <div className="card-body items-center text-center">
+            <h2 className="card-title">{props.school} - <span className="text-sm">{props.location}</span></h2>
+            <p>{props.program}</p>
+            <p className="pb-2">{props.start} - {props.grad}</p>
+          </div>
+        </div>
       </FadeIn>
     </div>
     // </div>
